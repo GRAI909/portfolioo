@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Rajeev Rai | Business Analytics & Data Solutions</title>
+  <meta name="description" content="Executive Portfolio of Gaurav Rajeev Rai - Business Analytics Enthusiast, Data-Driven Problem Solver, B.Sc. Computer Science graduate & PGDM Business Analytics scholar at UKS Institute of Management." />
+  
+  <!-- Favicon / Web Logo -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/images/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#landing" class="nav-logo">
+        <img src="assets/images/favicon.svg" alt="GR Web Logo" class="nav-logo-img" />
+        <span class="logo-text">Gaurav Rai</span>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle Navigation" id="mobile-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#landing" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link btn-nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================= PAGE 1 — LANDING (EXECUTIVE ANIMATED HERO) ================= -->
+  <section id="landing" class="section landing-section">
+    <!-- Interactive Node Particles Canvas -->
+    <canvas id="hero-particles-canvas"></canvas>
+
+    <div class="ambient-orb-1"></div>
+    <div class="ambient-orb-2"></div>
+    <div class="ambient-orb-3"></div>
+
+    <div class="container">
+      <div class="landing-hero-grid">
+        
+        <!-- Left Hero Column -->
+        <div class="hero-text-column reveal-on-scroll">
+          
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>Open for Business Analytics Roles & Internships</span>
+          </div>
+
+          <h1 class="hero-name">Gaurav Rajeev Rai</h1>
+
+          <div class="hero-title-tag">
+            <span id="typing-text">Business Analytics Enthusiast</span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <div class="hero-intro-box">
+            <p>
+              "Detail-oriented Computer Science graduate currently pursuing a PGDM in Business Analytics with AI at UKS Institute of Management, turning raw business and sales data into dashboards, trackers, and actionable reports using Excel, SQL fundamentals, and lightweight web tools like React. With prior hands-on experience across personal loans and credit card sales — including 5 months at Bajaj Finance — I bring direct exposure to KPI tracking, CRM data management, and market and competitor analysis in the financial services sector. Alongside that experience, I independently design and ship web-based tools — from a loan lead tracker to an animated budget dashboard — that turn scattered data into something usable. I'm now channeling this blend of analytical thinking and self-taught technical skill into my PGDM and a Business Analytics internship. Let's connect if you're building something data-driven."
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">
+              <span>Explore My Profile</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/gaurav-rai-6b5719280" target="_blank" rel="noopener" class="social-icon-btn" aria-label="LinkedIn Profile" data-tooltip="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:grai8476@gmail.com" class="social-icon-btn" aria-label="Email Me" data-tooltip="Direct Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+919226675739" class="social-icon-btn" aria-label="Call Me" data-tooltip="Phone Call">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Column: Photo & Floating Badges -->
+        <div class="hero-profile-card reveal-on-scroll delay-1" id="hero-3d-card">
+          
+          <div class="hero-photo-wrapper">
+            <img src="assets/images/profile-photo.png" alt="Gaurav Rajeev Rai Profile Photo" class="hero-photo" />
+            <div class="photo-glow-ring"></div>
+          </div>
+
+          <!-- Floating Metric Badge 1 -->
+          <div class="hero-badge-float top-right">
+            <i class="fa-solid fa-chart-line"></i>
+            <div>
+              <div class="txt-bold">2+ Years</div>
+              <div class="txt-sub">Sales & Analytics</div>
+            </div>
+          </div>
+
+          <!-- Floating Metric Badge 2 -->
+          <div class="hero-badge-float bottom-left">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <div class="txt-bold">PGDM BA</div>
+              <div class="txt-sub">UKS Institute</div>
+            </div>
+          </div>
+
+          <!-- Floating Metric Badge 3 -->
+          <div class="hero-badge-float bottom-right-badge">
+            <i class="fa-solid fa-trophy"></i>
+            <div>
+              <div class="txt-bold">1st Winner</div>
+              <div class="txt-sub">Debate Award</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 2 — ABOUT ME ================= -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Executive Overview</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <!-- Feature Strip -->
+      <div class="about-features-strip">
+        <div class="feature-box reveal-on-scroll delay-1">
+          <div class="feature-icon"><i class="fa-solid fa-database"></i></div>
+          <div class="feature-txt">
+            <h4>Data & Analytics</h4>
+            <p>Advanced Excel, SQL, Dashboards</p>
+          </div>
+        </div>
+
+        <div class="feature-box reveal-on-scroll delay-2">
+          <div class="feature-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="feature-txt">
+            <h4>Financial Services</h4>
+            <p>Bajaj Finance, CRM & KPI Tracking</p>
+          </div>
+        </div>
+
+        <div class="feature-box reveal-on-scroll delay-3">
+          <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+          <div class="feature-txt">
+            <h4>Full-Stack Toolkit</h4>
+            <p>React, Python, JS, Web Tools</p>
+          </div>
+        </div>
+
+        <div class="feature-box reveal-on-scroll delay-4">
+          <div class="feature-icon"><i class="fa-solid fa-comments"></i></div>
+          <div class="feature-txt">
+            <h4>Oratory & Debate</h4>
+            <p>1st Place Debate Winner</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary Box -->
+      <div class="about-summary-box reveal-on-scroll">
+        <h3 class="summary-heading"><i class="fa-solid fa-user-tie"></i> Professional Summary</h3>
+        <p class="summary-text">
+          "I'm a B.Sc. Computer Science graduate (Mumbai University) currently pursuing a PGDM in Business Analytics with AI from UKS Institute of Management. Before starting the program, I spent close to two years across personal loan and credit card sales roles — including 5 months at Bajaj Finance — where I tracked daily targets and managed CRM data with close attention to accuracy. That gave me a ground-level view of how banks and NBFCs structure products, pricing, and customer data. What sets me apart is the technical side I've built on top of that experience: I'm comfortable in Advanced Excel, SQL fundamentals, and a full-stack toolkit — HTML/CSS/JavaScript, Python, Django, Flask, and React — which I use to build my own dashboards and trackers rather than just work inside someone else's spreadsheet. I've also run a self-managed dropshipping business and done freelance analytics and presentation work for AV Finance, translating raw numbers into client-ready material. I hold diplomas in Advanced Excel, MS Office, Tally, and Full-Stack Web Development. I'm now channeling all of this toward business analytics — where data, business context, and hands-on tooling meet."
+        </p>
+      </div>
+
+      <!-- Mission and Vision Statements -->
+      <div class="mission-vision-container">
+        <div class="mv-card mission-card reveal-on-scroll delay-1">
+          <div class="mv-icon">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <div class="mv-content">
+            <h4>Mission</h4>
+            <p>To turn messy, real-world business and sales data into clear dashboards and reports that help teams make faster, better-informed decisions.</p>
+          </div>
+        </div>
+
+        <div class="mv-card vision-card reveal-on-scroll delay-2">
+          <div class="mv-icon">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <div class="mv-content">
+            <h4>Vision</h4>
+            <p>To grow into a business analytics professional who bridges hands-on sales experience with technical fluency — building tools, not just using them.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= PAGE 3 — WORK EXPERIENCE ================= -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Career Track Record</span>
+        <h2 class="section-title">Work Experience</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="timeline-wrapper">
+        
+        <!-- Role 1 -->
+        <div class="exp-card reveal-on-scroll delay-1">
+          <div class="exp-curtain-panel">
+            <div class="company-badge-circle">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <span class="exp-duration">5 Months</span>
+            <span class="exp-type">Full-time</span>
+          </div>
+
+          <div class="exp-content-panel">
+            <div class="exp-header-meta">
+              <h3 class="role-title">Sales Executive – Personal Loans</h3>
+              <span class="company-name"><i class="fa-solid fa-building"></i> Bajaj Finance</span>
+              <span class="location-tag"><i class="fa-solid fa-location-dot"></i> Mumbai, India</span>
+            </div>
+
+            <div class="exp-details">
+              <div class="exp-block">
+                <h4><i class="fa-solid fa-tasks"></i> Key Responsibilities:</h4>
+                <ul class="stagger-list">
+                  <li>Tracked daily targets and performance metrics as part of team KPI reporting.</li>
+                  <li>Managed CRM data entry and client documentation with a strong focus on accuracy.</li>
+                  <li>Advised clients on personal loan products across partner banks and NBFCs.</li>
+                </ul>
+              </div>
+
+              <div class="exp-block achievements-block">
+                <h4><i class="fa-solid fa-trophy"></i> Key Achievements:</h4>
+                <ul class="stagger-list">
+                  <li>Maintained accurate, audit-ready CRM records across daily client interactions.</li>
+                  <li>Contributed consistently to team-level KPI tracking and reporting.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="exp-card reveal-on-scroll delay-2">
+          <div class="exp-curtain-panel">
+            <div class="company-badge-circle">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+            <span class="exp-duration">~1.5 Years</span>
+            <span class="exp-type">Full-time</span>
+          </div>
+
+          <div class="exp-content-panel">
+            <div class="exp-header-meta">
+              <h3 class="role-title">Sales Executive – Personal Loans</h3>
+              <span class="company-name"><i class="fa-solid fa-building"></i> Prior Financial Services Organization</span>
+              <span class="location-tag"><i class="fa-solid fa-location-dot"></i> Mumbai, India</span>
+            </div>
+
+            <div class="exp-details">
+              <div class="exp-block">
+                <h4><i class="fa-solid fa-tasks"></i> Key Responsibilities:</h4>
+                <ul class="stagger-list">
+                  <li>Handled client interactions, documentation, and lead qualification.</li>
+                  <li>Tracked competitor loan offers and interest rates to inform sales conversations.</li>
+                  <li>Built working knowledge of loan products across banks and NBFCs.</li>
+                </ul>
+              </div>
+
+              <div class="exp-block achievements-block">
+                <h4><i class="fa-solid fa-trophy"></i> Key Achievements:</h4>
+                <ul class="stagger-list">
+                  <li>Qualified and progressed leads across a ~1.5-year tenure, building deep product knowledge.</li>
+                  <li>Supported team market awareness through ongoing competitor rate tracking.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="exp-card reveal-on-scroll delay-3">
+          <div class="exp-curtain-panel">
+            <div class="company-badge-circle">
+              <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <span class="exp-duration">6 Months</span>
+            <span class="exp-type">Full-time</span>
+          </div>
+
+          <div class="exp-content-panel">
+            <div class="exp-header-meta">
+              <h3 class="role-title">Sales Executive – Credit Cards</h3>
+              <span class="company-name"><i class="fa-solid fa-building"></i> Prior Financial Services Organization</span>
+              <span class="location-tag"><i class="fa-solid fa-location-dot"></i> Mumbai, India</span>
+            </div>
+
+            <div class="exp-details">
+              <div class="exp-block">
+                <h4><i class="fa-solid fa-tasks"></i> Key Responsibilities:</h4>
+                <ul class="stagger-list">
+                  <li>Managed target-driven credit card sales and customer onboarding.</li>
+                  <li>Handled customer data collection and reporting.</li>
+                </ul>
+              </div>
+
+              <div class="exp-block achievements-block">
+                <h4><i class="fa-solid fa-trophy"></i> Key Achievements:</h4>
+                <ul class="stagger-list">
+                  <li>Built foundational experience in target-driven sales within 6 months.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 4 -->
+        <div class="exp-card reveal-on-scroll delay-4">
+          <div class="exp-curtain-panel">
+            <div class="company-badge-circle">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <span class="exp-duration">1 Year</span>
+            <span class="exp-type">Self-employed</span>
+          </div>
+
+          <div class="exp-content-panel">
+            <div class="exp-header-meta">
+              <h3 class="role-title">Online Dropshipping (Self-Managed)</h3>
+              <span class="company-name"><i class="fa-solid fa-store"></i> Independent E-Commerce</span>
+              <span class="location-tag"><i class="fa-solid fa-globe"></i> Remote</span>
+            </div>
+
+            <div class="exp-details">
+              <div class="exp-block">
+                <h4><i class="fa-solid fa-tasks"></i> Key Responsibilities:</h4>
+                <ul class="stagger-list">
+                  <li>Conducted product and market research to identify viable listings.</li>
+                  <li>Managed order processing and basic web-store analytics.</li>
+                </ul>
+              </div>
+
+              <div class="exp-block achievements-block">
+                <h4><i class="fa-solid fa-trophy"></i> Key Achievements:</h4>
+                <ul class="stagger-list">
+                  <li>Independently ran a self-managed e-commerce operation for a full year.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 4 — EDUCATION ================= -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Academic Credentials</span>
+        <h2 class="section-title">Education</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="education-grid">
+        
+        <!-- Edu 1 -->
+        <div class="edu-card reveal-on-scroll delay-1">
+          <div class="edu-header">
+            <div class="edu-icon-toss">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <span class="edu-badge">Currently Pursuing • In Progress</span>
+          </div>
+          <h3 class="edu-degree">PGDM — Business Analytics with AI</h3>
+          <p class="edu-institution"><i class="fa-solid fa-university"></i> UKS Institute of Management</p>
+          <span class="edu-mode"><i class="fa-solid fa-user-graduate"></i> Mode: Full-time</span>
+
+          <div class="edu-highlights">
+            <h4>Key Highlights:</h4>
+            <ul class="typewriter-list">
+              <li>Currently pursuing Postgraduate Diploma in Management (Business Analytics with AI) at UKS Institute of Management.</li>
+              <li>Builds directly on prior sales, CRM, and data-handling experience in financial services.</li>
+              <li>Combines with self-taught technical skills (SQL, React, Python) already in use on personal projects.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Edu 2 -->
+        <div class="edu-card reveal-on-scroll delay-2">
+          <div class="edu-header">
+            <div class="edu-icon-toss">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <span class="edu-badge">Graduated</span>
+          </div>
+          <h3 class="edu-degree">B.Sc. Computer Science</h3>
+          <p class="edu-institution"><i class="fa-solid fa-university"></i> Mumbai University</p>
+          <span class="edu-mode"><i class="fa-solid fa-user-graduate"></i> Mode: Full-time</span>
+
+          <div class="edu-highlights">
+            <h4>Key Highlights:</h4>
+            <ul class="typewriter-list">
+              <li>Completed B.Sc. Computer Science degree under Mumbai University.</li>
+              <li>Core focus on computer science fundamentals alongside technical project builds.</li>
+              <li>Applied coursework directly to personal dashboard and web-tool projects.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Edu 3 -->
+        <div class="edu-card reveal-on-scroll delay-3">
+          <div class="edu-header">
+            <div class="edu-icon-toss">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <span class="edu-badge">2023</span>
+          </div>
+          <h3 class="edu-degree">HSC (12th), Maharashtra Board</h3>
+          <p class="edu-institution"><i class="fa-solid fa-building-columns"></i> Shri Kishore Mangal Murti High School & Jr. College</p>
+          <span class="edu-mode"><i class="fa-solid fa-clock"></i> Mode: Full-time</span>
+
+          <div class="edu-highlights">
+            <h4>Key Highlights:</h4>
+            <ul class="typewriter-list">
+              <li>Completed 12th grade under the Maharashtra State Board.</li>
+              <li>Foundation year ahead of pursuing Computer Science at degree level.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Edu 4 -->
+        <div class="edu-card reveal-on-scroll delay-4">
+          <div class="edu-header">
+            <div class="edu-icon-toss">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <span class="edu-badge">2021</span>
+          </div>
+          <h3 class="edu-degree">SSC (10th), Maharashtra Board</h3>
+          <p class="edu-institution"><i class="fa-solid fa-school"></i> Shri Yadavesh Vikas Vidyalaya</p>
+          <span class="edu-mode"><i class="fa-solid fa-clock"></i> Mode: Full-time</span>
+
+          <div class="edu-highlights">
+            <h4>Key Highlights:</h4>
+            <ul class="typewriter-list">
+              <li>Completed 10th grade under the Maharashtra State Board.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 5 — PROJECTS ================= -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Applied Technical Solutions</span>
+        <h2 class="section-title">Projects & Dashboards</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <!-- Interactive Filter Tabs -->
+      <div class="project-filter-tabs reveal-on-scroll">
+        <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-layer-group"></i> All (9)</button>
+        <button class="filter-btn" data-filter="dashboards"><i class="fa-solid fa-chart-pie"></i> Dashboards & Analytics</button>
+        <button class="filter-btn" data-filter="webtools"><i class="fa-solid fa-globe"></i> Live Web Tools</button>
+        <button class="filter-btn" data-filter="freelance"><i class="fa-solid fa-briefcase"></i> Freelance & Marketing</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal-on-scroll delay-1" data-category="dashboards">
+          <div class="project-left-panel">
+            <span class="project-num">01</span>
+            <div class="project-icon"><i class="fa-solid fa-table-cells"></i></div>
+            <span class="project-type-tag">Personal Project</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Loan Lead Tracking Dashboard</h3>
+              <span class="project-year">2026 • Rai Finance</span>
+            </div>
+            <p class="project-desc">
+              Built and maintain a web-based lead-tracker dashboard that organizes and monitors personal loan enquiries across a network of banks and NBFCs, including Firebase Phone Authentication on a Netlify-hosted static site.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Centralized loan enquiry tracking in one dashboard.</div>
+                <div class="outcome-box"><span class="out-num">2</span> Cleaned and transcribed raw lead data from screenshots into structured Excel format.</div>
+                <div class="outcome-box"><span class="out-num">3</span> Implemented phone-based authentication for secure access.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Firebase Auth</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-on-scroll delay-2" data-category="dashboards">
+          <div class="project-left-panel">
+            <span class="project-num">02</span>
+            <div class="project-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <span class="project-type-tag">React Dashboard</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Animated Budget Dashboard</h3>
+              <span class="project-year">2026 • React</span>
+            </div>
+            <p class="project-desc">
+              Designed an interactive, animated budget-tracking dashboard using React with fintech-style visuals and Indian Rupee formatting, built from an uploaded spreadsheet.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Visualized income, expenses, and trends in one interface.</div>
+                <div class="outcome-box"><span class="out-num">2</span> Applied fintech-style animation and Rupee-formatted figures.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">CSS Animations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal-on-scroll delay-3" data-category="freelance">
+          <div class="project-left-panel">
+            <span class="project-num">03</span>
+            <div class="project-icon"><i class="fa-solid fa-file-powerpoint"></i></div>
+            <span class="project-type-tag">Freelance Support</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Marketing & Analytics Collateral</h3>
+              <span class="project-year">2026 • AV Finance</span>
+            </div>
+            <p class="project-desc">
+              Created client-facing presentation decks and creative materials for AV Finance, translating business data into clear, presentable formats for stakeholders.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Delivered client-ready presentation decks and an outdoor banner design.</div>
+                <div class="outcome-box"><span class="out-num">2</span> Listed and organized partner banks/NBFCs for stakeholder materials.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">PowerPoint</span>
+              <span class="tech-pill">Design Tools</span>
+              <span class="tech-pill">Data Presentation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal-on-scroll delay-1" data-category="webtools">
+          <div class="project-left-panel">
+            <span class="project-num">04</span>
+            <div class="project-icon"><i class="fa-solid fa-wallet"></i></div>
+            <span class="project-type-tag">Live Web Tool</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Rai Fintech</h3>
+              <a href="https://rai-fintech.netlify.app" target="_blank" rel="noopener" class="live-link-btn">
+                <span>rai-fintech.netlify.app</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              A digital financial services dashboard providing transaction tracking and key-metric visualization in a single interface.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Simplifies tracking of financial transactions and metrics.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal-on-scroll delay-2" data-category="webtools">
+          <div class="project-left-panel">
+            <span class="project-num">05</span>
+            <div class="project-icon"><i class="fa-solid fa-share-nodes"></i></div>
+            <span class="project-type-tag">Live Web Tool</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Gaurav Follows</h3>
+              <a href="https://gaurav-follows.netlify.app" target="_blank" rel="noopener" class="live-link-btn">
+                <span>gaurav-follows.netlify.app</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              A personal portfolio and link-aggregation tool that centralizes online presence and tracks engagement across social profiles.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Centralizes personal/social links in one place.</div>
+                <div class="outcome-box"><span class="out-num">2</span> Supports engagement monitoring across profiles.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card reveal-on-scroll delay-3" data-category="webtools">
+          <div class="project-left-panel">
+            <span class="project-num">06</span>
+            <div class="project-icon"><i class="fa-solid fa-headset"></i></div>
+            <span class="project-type-tag">Live Web Tool</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Calling Data</h3>
+              <a href="https://calling-data.netlify.app" target="_blank" rel="noopener" class="live-link-btn">
+                <span>calling-data.netlify.app</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              A call-log management tool for structuring and analyzing call records — useful for sales outreach and telesales follow-up tracking.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Structures raw call records for reporting.</div>
+                <div class="outcome-box"><span class="out-num">2</span> Tracks call status, duration, and follow-ups.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card reveal-on-scroll delay-1" data-category="webtools">
+          <div class="project-left-panel">
+            <span class="project-num">07</span>
+            <div class="project-icon"><i class="fa-solid fa-compass"></i></div>
+            <span class="project-type-tag">Live Web Tool</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Career Selector</h3>
+              <a href="https://careerselector.netlify.app" target="_blank" rel="noopener" class="live-link-btn">
+                <span>careerselector.netlify.app</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              Helps students and job seekers explore career options through assessments and skill-matching against suitable industries.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Streamlines career decision-making via skill/interest matching.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-card reveal-on-scroll delay-2" data-category="webtools">
+          <div class="project-left-panel">
+            <span class="project-num">08</span>
+            <div class="project-icon"><i class="fa-solid fa-calculator"></i></div>
+            <span class="project-type-tag">Live Web Tool</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">Loan Pro</h3>
+              <a href="https://loan-pro.netlify.app" target="_blank" rel="noopener" class="live-link-btn">
+                <span>loan-pro.netlify.app</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              A financial utility for calculating loan eligibility, EMI structures, and interest rates to support informed borrowing decisions.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Provides transparent EMI and eligibility calculations.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="project-card reveal-on-scroll delay-3" data-category="webtools">
+          <div class="project-left-panel">
+            <span class="project-num">09</span>
+            <div class="project-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+            <span class="project-type-tag">Live Web Tool</span>
+          </div>
+          <div class="project-right-content">
+            <div class="project-header">
+              <h3 class="project-title">ShopEase</h3>
+              <a href="https://shopease-gaurav.netlify.app" target="_blank" rel="noopener" class="live-link-btn">
+                <span>shopease-gaurav.netlify.app</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              An e-commerce portal offering product listings, cart management, and a streamlined checkout flow.
+            </p>
+            <div class="project-outcomes">
+              <h5><i class="fa-solid fa-circle-check"></i> Key Outcomes:</h5>
+              <div class="outcomes-list">
+                <div class="outcome-box"><span class="out-num">1</span> Delivers a full browse-to-checkout shopping flow.</div>
+              </div>
+            </div>
+            <div class="project-tech-pills">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 6 — SKILLS ================= -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Technical Competencies</span>
+        <h2 class="section-title">Skills & Proficiencies</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Category 1 -->
+        <div class="skill-category-card reveal-on-scroll delay-1">
+          <div class="category-header">
+            <div class="category-icon-spin">
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+            <h3>Data & Analytics</h3>
+          </div>
+          <div class="skills-bars-list">
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">MS-Excel (Advanced)</span>
+                <span class="skill-val" data-target="90">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Data Cleaning & Transcription</span>
+                <span class="skill-val" data-target="85">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">KPI Tracking</span>
+                <span class="skill-val" data-target="85">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Dashboard Building</span>
+                <span class="skill-val" data-target="80">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">SQL Fundamentals</span>
+                <span class="skill-val" data-target="70">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="skill-category-card reveal-on-scroll delay-2">
+          <div class="category-header">
+            <div class="category-icon-spin">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3>Business Tools</h3>
+          </div>
+          <div class="skills-bars-list">
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">MS-Office (Word, Excel, PowerPoint)</span>
+                <span class="skill-val" data-target="90">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">CRM Data Entry</span>
+                <span class="skill-val" data-target="88">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Report Preparation</span>
+                <span class="skill-val" data-target="85">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Tally</span>
+                <span class="skill-val" data-target="80">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="skill-category-card reveal-on-scroll delay-3">
+          <div class="category-header">
+            <div class="category-icon-spin">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skills-bars-list">
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML5 / CSS3</span>
+                <span class="skill-val" data-target="80">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-val" data-target="78">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="78"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">React (Dashboards)</span>
+                <span class="skill-val" data-target="75">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Django / Flask</span>
+                <span class="skill-val" data-target="70">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Git Basics</span>
+                <span class="skill-val" data-target="70">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4 -->
+        <div class="skill-category-card reveal-on-scroll delay-4">
+          <div class="category-header">
+            <div class="category-icon-spin">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <h3>Research & Communication</h3>
+          </div>
+          <div class="skills-bars-list">
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">English (Spoken & Written)</span>
+                <span class="skill-val" data-target="90">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Lead Data Analysis</span>
+                <span class="skill-val" data-target="85">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Client-facing Reporting</span>
+                <span class="skill-val" data-target="85">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Market & Competitor Analysis</span>
+                <span class="skill-val" data-target="82">0%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-percent="82"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 7 — CERTIFICATIONS ================= -->
+  <section id="certifications" class="section certifications-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Verified Qualifications</span>
+        <h2 class="section-title">Certifications & Diplomas</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="certs-grid">
+
+        <!-- Cert 1 (Debate Competition Winner) -->
+        <div class="cert-card reveal-on-scroll delay-1" data-img="assets/images/debate-cert.jpg" data-title="1st Winner - Debate Competition Certificate">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/debate-cert.jpg" alt="1st Winner Debate Competition Certificate" class="cert-img" />
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-expand"></i> View Certificate</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-trophy"></i> 1st Winner</div>
+            <h3 class="cert-title">Debate Competition Winner</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-award"></i> Grow Skills Academy</p>
+            <span class="cert-date"><i class="fa-solid fa-calendar-days"></i> Feb 08, 2025</span>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card reveal-on-scroll delay-2" data-img="assets/images/advanced-excel-cert.jpg" data-title="Diploma in Advanced Excel">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/advanced-excel-cert.jpg" alt="Diploma in Advanced Excel" class="cert-img" />
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-expand"></i> View Certificate</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-award"></i> Grade A</div>
+            <h3 class="cert-title">Diploma in Advanced Excel</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> J TECH Computer Education (Govt. Recognised)</p>
+            <span class="cert-date"><i class="fa-solid fa-calendar-days"></i> Dec 2021</span>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card reveal-on-scroll delay-3" data-img="assets/images/ms-office-cert.jpg" data-title="Diploma in MS Office">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/ms-office-cert.jpg" alt="Diploma in MS Office" class="cert-img" />
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-expand"></i> View Certificate</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-award"></i> Grade A</div>
+            <h3 class="cert-title">Diploma in MS Office</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> J TECH Computer Education (Govt. Recognised)</p>
+            <span class="cert-date"><i class="fa-solid fa-calendar-days"></i> Dec 2021</span>
+          </div>
+        </div>
+
+        <!-- Cert 3B (Merit Certificate in MS Office) -->
+        <div class="cert-card reveal-on-scroll delay-1" data-img="assets/images/ms-office-merit-cert.jpg" data-title="Certificate of Merit - MS Office">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/ms-office-merit-cert.jpg" alt="Certificate of Merit - MS Office" class="cert-img" />
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-expand"></i> View Certificate</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-star"></i> Certificate of Merit</div>
+            <h3 class="cert-title">Merit Certificate in MS Office</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> J TECH Computer Education (Govt. Recognised)</p>
+            <span class="cert-date"><i class="fa-solid fa-calendar-days"></i> Dec 2021</span>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card reveal-on-scroll delay-1" data-img="assets/images/tally-cert.jpg" data-title="Diploma in Tally">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/tally-cert.jpg" alt="Diploma in Tally" class="cert-img" />
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-expand"></i> View Certificate</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-award"></i> Grade A</div>
+            <h3 class="cert-title">Diploma in Advance Tally</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> J TECH Computer Education (Govt. Recognised)</p>
+            <span class="cert-date"><i class="fa-solid fa-calendar-days"></i> Dec 2021</span>
+          </div>
+        </div>
+
+        <!-- Cert 5 -->
+        <div class="cert-card reveal-on-scroll delay-2" data-title="Full-Stack Web Development">
+          <div class="cert-img-wrapper cert-code-placeholder">
+            <div class="code-cert-graphic">
+              <i class="fa-solid fa-code-compare"></i>
+              <span>Full-Stack Diploma</span>
+            </div>
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-layer-group"></i> Stack Details</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-check-double"></i> Verified Skill</div>
+            <h3 class="cert-title">Full-Stack Web Development</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-terminal"></i> HTML/CSS/JS, Python, Django & Flask, SQL</p>
+            <span class="cert-date"><i class="fa-solid fa-laptop-code"></i> Comprehensive Stack</span>
+          </div>
+        </div>
+
+        <!-- Cert 6 (Cultural / Merit) -->
+        <div class="cert-card reveal-on-scroll delay-3" data-img="assets/images/sanskriti-cert.jpg" data-title="Bhartiya Sanskriti Gyan Pariksha Certificate">
+          <div class="cert-img-wrapper">
+            <img src="assets/images/sanskriti-cert.jpg" alt="Bhartiya Sanskriti Gyan Pariksha" class="cert-img" />
+            <div class="cert-overlay">
+              <span class="view-cert-btn"><i class="fa-solid fa-expand"></i> View Certificate</span>
+            </div>
+          </div>
+          <div class="cert-details">
+            <div class="cert-badge"><i class="fa-solid fa-star"></i> Certificate of Merit</div>
+            <h3 class="cert-title">Bhartiya Sanskriti Gyan Pariksha</h3>
+            <p class="cert-issuer"><i class="fa-solid fa-landmark"></i> Gayatri Teerth, Shantikunj Haridwar</p>
+            <span class="cert-date"><i class="fa-solid fa-calendar-days"></i> 2019-20</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 8 — ACHIEVEMENTS & HIGHLIGHTS ================= -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Milestones & Impact</span>
+        <h2 class="section-title">Achievements & Recognition</h2>
+        <p class="section-intro">Milestones from a self-driven path across sales, public speaking, and self-taught tech.</p>
+        <div class="header-line"></div>
+      </div>
+
+      <!-- Stat Counters -->
+      <div class="stats-counter-row">
+        <div class="stat-counter-card reveal-on-scroll delay-1">
+          <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="stat-number" data-target="2">0</div>
+          <div class="stat-plus">+ Years</div>
+          <div class="stat-label">Sales Experience</div>
+        </div>
+
+        <div class="stat-counter-card reveal-on-scroll delay-2">
+          <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+          <div class="stat-number" data-target="7">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+
+        <div class="stat-counter-card reveal-on-scroll delay-3">
+          <div class="stat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <div class="stat-number" data-target="9">0</div>
+          <div class="stat-plus"></div>
+          <div class="stat-label">Web & Data Projects</div>
+        </div>
+
+        <div class="stat-counter-card reveal-on-scroll delay-4">
+          <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="stat-number" data-target="1">0</div>
+          <div class="stat-plus">st</div>
+          <div class="stat-label">Debate Award Winner</div>
+        </div>
+      </div>
+
+      <!-- Highlights Cards -->
+      <div class="achievements-cards-row">
+        
+        <div class="achievement-card reveal-on-scroll delay-1">
+          <div class="badge-pop-glow">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div class="achieve-content">
+            <span class="achieve-pill">Communication & Oratory</span>
+            <h3>1st Winner — Debate Competition</h3>
+            <p>
+              Awarded 1st Place Winner in the Debate Competition by Grow Skills Academy (Feb 08, 2025), demonstrating persuasive public speaking, quick analytical reasoning, and structured argument delivery.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal-on-scroll delay-2">
+          <div class="badge-pop-glow">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div class="achieve-content">
+            <span class="achieve-pill">Technical Autonomy</span>
+            <h3>Self-Taught Web & Tooling Suite</h3>
+            <p>
+              Independently conceptualized, engineered, and deployed 6 live web tools and 3 custom dashboards — ranging from loan lead tracking with Firebase Auth to interactive React budget visualizers.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal-on-scroll delay-3">
+          <div class="badge-pop-glow">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <div class="achieve-content">
+            <span class="achieve-pill">Commercial Execution</span>
+            <h3>E-Commerce & Client Operations</h3>
+            <p>
+              Successfully operated an independent dropshipping business for 1 full year while providing freelance marketing and analytics presentation decks for AV Finance stakeholders.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 9 — CONTACT ================= -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <div class="contact-wrapper">
+        
+        <!-- Left Column: Form -->
+        <div class="contact-form-panel reveal-on-scroll delay-1">
+          <h3 class="form-title"><i class="fa-solid fa-paper-plane"></i> Send Me a Message</h3>
+          <p class="form-subtext">Have an inquiry, project, or analytics opportunity? Reach out directly below.</p>
+
+          <form id="contact-form" action="mailto:grai8476@gmail.com" method="POST" enctype="text/plain">
+            
+            <div class="form-group">
+              <input type="text" id="fullname" name="fullname" class="form-control" required placeholder=" " />
+              <label for="fullname" class="floating-label">Full Name</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" name="email" class="form-control" required placeholder=" " />
+              <label for="email" class="floating-label">Email Address</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" class="form-control" required placeholder=" " />
+              <label for="subject" class="floating-label">Subject</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" rows="4" class="form-control" required placeholder=" "></textarea>
+              <label for="message" class="floating-label">Message</label>
+            </div>
+
+            <button type="submit" class="btn btn-send">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+              <div class="shimmer-sweep"></div>
+            </button>
+          </form>
+
+        </div>
+
+        <!-- Right Column: Info -->
+        <div class="contact-info-panel reveal-on-scroll delay-2">
+          <h3 class="info-title"><i class="fa-solid fa-address-card"></i> Direct Contact Details</h3>
+          <p class="info-subtext">Feel free to connect via phone, email, or social channels anytime.</p>
+
+          <div class="contact-details-list">
+            
+            <div class="contact-info-row">
+              <div class="row-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="row-text">
+                <span class="row-label">Email</span>
+                <a href="mailto:grai8476@gmail.com" class="row-value">grai8476@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-row">
+              <div class="row-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="row-text">
+                <span class="row-label">Phone</span>
+                <a href="tel:+919226675739" class="row-value">+91 9226675739</a>
+              </div>
+            </div>
+
+            <div class="contact-info-row">
+              <div class="row-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="row-text">
+                <span class="row-label">Location</span>
+                <span class="row-value">Mumbai, Maharashtra, India</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="info-social-block">
+            <h4>Connect via Social Networks</h4>
+            <div class="info-social-links">
+              <a href="https://www.linkedin.com/in/gaurav-rai-6b5719280" target="_blank" rel="noopener" class="info-social-btn">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:grai8476@gmail.com" class="info-social-btn">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="quick-contact-card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <p>"Open for Business Analytics Internships & Data Analyst roles in Mumbai or Remote."</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <!-- Top Footer Call to Action Banner -->
+      <div class="footer-top-cta reveal-on-scroll">
+        <div class="footer-cta-text">
+          <h4>Building Something Data-Driven?</h4>
+          <p>Open for Business Analytics Roles, Data Analyst Internships & Strategic Collaborations.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary">
+          <span>Let's Work Together</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Main Footer 4-Column Grid -->
+      <div class="footer-grid">
+        
+        <!-- Col 1: Brand & Executive Bio -->
+        <div class="footer-col">
+          <div class="footer-brand-meta">
+            <img src="assets/images/favicon.svg" alt="GR Monogram Logo" class="footer-brand-logo" />
+            <h3 class="footer-brand-title">Gaurav Rai</h3>
+          </div>
+          <p class="footer-bio">
+            Detail-oriented CS Graduate & PGDM Business Analytics Scholar (UKS Institute) blending 2+ years of financial loan sales with self-taught React, SQL, and Advanced Excel tools.
+          </p>
+          <div class="footer-status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Roles in Mumbai / Remote</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <h4>Quick Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#landing"><i class="fa-solid fa-chevron-right"></i> Home / Hero</a></li>
+            <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> Executive Overview</a></li>
+            <li><a href="#experience"><i class="fa-solid fa-chevron-right"></i> Work Experience</a></li>
+            <li><a href="#education"><i class="fa-solid fa-chevron-right"></i> Education Track</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-chevron-right"></i> Projects & Tools</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-chevron-right"></i> Skills Toolkit</a></li>
+            <li><a href="#certifications"><i class="fa-solid fa-chevron-right"></i> Certifications</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Live Web Tools -->
+        <div class="footer-col">
+          <h4>Featured Live Tools</h4>
+          <ul class="footer-links-list">
+            <li><a href="https://rai-fintech.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Rai Fintech Portal</a></li>
+            <li><a href="https://gaurav-follows.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Gaurav Follows</a></li>
+            <li><a href="https://calling-data.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Calling Data Tracker</a></li>
+            <li><a href="https://careerselector.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Career Selector</a></li>
+            <li><a href="https://loan-pro.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Loan Pro Calculator</a></li>
+            <li><a href="https://shopease-gaurav.netlify.app" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> ShopEase Portal</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Social Connect -->
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <span class="row-label">Email Me</span><br />
+                <a href="mailto:grai8476@gmail.com">grai8476@gmail.com</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <span class="row-label">Call Direct</span><br />
+                <a href="tel:+919226675739">+91 9226675739</a>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="row-label">Location</span><br />
+                <span>Mumbai, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/gaurav-rai-6b5719280" target="_blank" rel="noopener" class="footer-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:grai8476@gmail.com" class="footer-social-btn" aria-label="Direct Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+919226675739" class="footer-social-btn" aria-label="Phone Call"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <p>&copy; <span id="year-copy">2026</span> Gaurav Rajeev Rai. All rights reserved.</p>
+        <p>Crafted with <i class="fa-solid fa-heart" style="color: var(--gold-primary);"></i> &amp; Precision in Mumbai, India.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <a href="#landing" id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <!-- Certificate Image Lightbox Modal -->
+  <div id="cert-modal" class="modal-lightbox">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content-box">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close modal">&times;</button>
+      <h3 id="modal-cert-title" class="modal-cert-title">Certificate Title</h3>
+      <div class="modal-img-container">
+        <img id="modal-cert-img" src="" alt="Certificate Large Preview" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
